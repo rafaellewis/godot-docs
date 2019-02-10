@@ -225,7 +225,7 @@ by Godot programmers: :ref:`Node.get_node() <class_Node_get_node>`.
 This function uses paths to fetch nodes anywhere in the scene, relative to the
 node that owns the script.
 
-For the sake of convenience, delete everything underneath ``extends Panel``.
+For the sake of convenience, delete everything underneath ``func _ready():``.
 You will fill out the rest of the script manually.
 
 Because the Button and Label are siblings under the Panel
